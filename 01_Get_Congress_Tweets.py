@@ -24,12 +24,12 @@ import shutil
 # Download CSV file that contains Twitter usernames of current 
 # members of the US Congress as of May 23, 2017
 # House of Representatives: 
-!wget https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-House-seeds.csv
+# https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-House-seeds.csv
 with open("115th-Congress-House-seeds.csv") as f:
         house_twitter_names = [row.split(',')[0] for row in f]
 	
 # Source for Senate: 
-!wget https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-Senate-seeds.csv 
+# https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-Senate-seeds.csv 
 with open("115th-Congress-Senate-seeds.csv") as f:
         senate_twitter_names = [row.split(',')[0] for row in f]
 
