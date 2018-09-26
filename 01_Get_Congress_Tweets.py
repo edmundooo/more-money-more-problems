@@ -24,7 +24,7 @@ import shutil
 # House of Representatives: 
 # https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-House-seeds.csv
 with open("115th-Congress-House-seeds.csv") as f:
-        house_twitter_names = [row.split(',')[0] for row in f]
+	house_twitter_names = [row.split(',')[0] for row in f]
 	
 # Source for Senate: 
 # https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-Senate-seeds.csv
@@ -40,11 +40,11 @@ for name in twitter_names:
 	tweetCriteria = got.manager.TweetCriteria().setUsername(name)
 	tweet = got.manager.TweetManager.getTweets(tweetCriteria)
 
-    # Create a CSV file to hold the data for each 
-    # Congress member and name it based on Twitter handle
+	# Create a CSV file to hold the data for each 
+	# Congress member and name it based on Twitter handle
 	with open(name+'_tweets.csv', mode='w') as employee_file:
         	employee_writer = (csv.writer(employee_file, delimiter=';',\
-                              quotechar='"', quoting=csv.QUOTE_MINIMAL))
+				  quotechar='"', quoting=csv.QUOTE_MINIMAL))
 
         for line in tweet:
             encoded_tweet=line.text.encode('utf-8')
@@ -52,6 +52,6 @@ for name in twitter_names:
             line.favorites,encoded_tweet,line.mentions,line.hashtags,line.id,\
             line.permalink]))
 
-    # Move each file into data folder
+    	# Move each file into data folder
 	(shutil.move('/home/ubuntu/data/'+name+'_tweets.csv', '/home/ubuntu/data/'\
-    +name+'_tweets.csv')
+    	+name+'_tweets.csv')
