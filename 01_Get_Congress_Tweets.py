@@ -1,6 +1,5 @@
 '''
-Subject: Topics of Tweets of Congress through the Lens 
-         of Campaign Finance
+Subject: Topics of Tweets of Congress through the Lens of Campaign Finance
 
 Date: 09/08/2018
 
@@ -8,10 +7,9 @@ Name: Edmund D. Chitwood
 
 Summary:
 
-The following script uses Jefferson Enrique's got (Get Old 
-Tweets) module to get the Tweets of all the current members of
-the US Congress, and reads the Tweets and select Tweet
-metadata into CSV files.
+The following script uses Jefferson Enrique's got (Get Old Tweets) module to 
+get the Tweets of all the current members of the US Congress, and reads the 
+Tweets and select Tweet metadata into CSV files.
 
 '''
 
@@ -29,7 +27,7 @@ with open("115th-Congress-House-seeds.csv") as f:
         house_twitter_names = [row.split(',')[0] for row in f]
 	
 # Source for Senate: 
-# https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-Senate-seeds.csv 
+# https://gwu-libraries.github.io/sfm-ui/resources/115th-Congress-Senate-seeds.csv
 with open("115th-Congress-Senate-seeds.csv") as f:
         senate_twitter_names = [row.split(',')[0] for row in f]
 
@@ -42,14 +40,18 @@ for name in twitter_names:
 	tweetCriteria = got.manager.TweetCriteria().setUsername(name)
 	tweet = got.manager.TweetManager.getTweets(tweetCriteria)
 
-    	# Create a CSV file to hold the data for each 
-    	# Congress member and name it based on Twitter handle
+    # Create a CSV file to hold the data for each 
+    # Congress member and name it based on Twitter handle
 	with open(name+'_tweets.csv', mode='w') as employee_file:
-        	employee_writer = csv.writer(employee_file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        	employee_writer = (csv.writer(employee_file, delimiter=';',\
+                              quotechar='"', quoting=csv.QUOTE_MINIMAL))
 
-		for line in tweet:
-			encoded_tweet=line.text.encode('utf-8')
-			employee_writer.writerow([line.username,line.date,line.retweets,line.favorites,encoded_tweet,line.mentions,line.hashtags,line.id,line.permalink])
+        for line in tweet:
+            encoded_tweet=line.text.encode('utf-8')
+            (employee_writer.writerow([line.username,line.date,line.retweets,\
+            line.favorites,encoded_tweet,line.mentions,line.hashtags,line.id,\
+            line.permalink]))
 
-    	# Move each file into data folder
-	shutil.move('/home/ubuntu/data/'+name+'_tweets.csv', '/home/ubuntu/data/'+name+'_tweets.csv')
+    # Move each file into data folder
+	(shutil.move('/home/ubuntu/data/'+name+'_tweets.csv', '/home/ubuntu/data/'\
+    +name+'_tweets.csv')
