@@ -15,7 +15,7 @@ metadata into CSV files.
 
 '''
 
-# https://github.com/edmundooo/GetOldTweets-python
+# got source: https://github.com/edmundooo/GetOldTweets-python
 # got is writtn in Python 2
 import got
 import csv
