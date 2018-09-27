@@ -1,5 +1,5 @@
 '''
-Subject: Topics of Tweets of Congress through the Lens of Campaign Finance
+Subject: Topics of Tweets of US Congress through the Lens of Campaign Finance
 
 Date: 09/08/2018
 
