@@ -9,6 +9,6 @@ I used Jefferson Henrique's [Get Old Tweets repository](https://github.com/edmun
 
 
 
-* __01_Get_Congress_Tweets.py:__  (present tense verbs), (no period at end)
+* __01_Get_Congress_Tweets.py:__ gets the Tweets of all the current members of the US Congress, and reads the Tweets and select Tweet metadata into CSV files
 
-* __02_EDA.ipynb:__  (present tense verbs), (no period at end
+* __02_Tweets_to_Pickle.ipynb:__ reads all Tweets from CSV files, reads them into a Pandas DataFrame and then pickles the DataFrame.
