@@ -11,4 +11,6 @@ I used Jefferson Henrique's [Get Old Tweets repository](https://github.com/edmun
 
 * __01_Get_Congress_Tweets.py:__ gets the Tweets of all the current members of the US Congress, and reads the Tweets and select Tweet metadata into CSV files
 
-* __02_Tweets_to_Pickle.ipynb:__ reads all Tweets from CSV files, reads them into a Pandas DataFrame and then pickles the DataFrame
+* __02_Tweets_to_Pickle.ipynb:__ reads all Tweets from CSV files and then pickles the data
+
+* __03_Partial_Data_EDA.ipynb:__ reads in Senator Amy Klobuchar's Tweets performs EDA on on the them.
