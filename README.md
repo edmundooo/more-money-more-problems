@@ -11,8 +11,11 @@ I used Jefferson Henrique's [Get Old Tweets repository](https://github.com/edmun
 
 * __01_Get_Congress_Tweets.py:__ gets the Tweets of all the current members of the US Congress, and reads the Tweets and select Tweet metadata into CSV files
 
-* __02_Partial_Data_EDA.ipynb:__ reads in Senator Amy Klobuchar's Tweets performs EDA on on the them.
+* __02_Partial_Data_EDA.ipynb:__ reads in Senator Amy Klobuchar's Tweets performs EDA on on the them
 
-* __03_Tweets_to_Pickle.ipynb:__ reads all Tweets from CSV files and then pickles the data
+* __03_Tweets_to_Pickle.ipynb:__ reads all Tweets from CSV files and then Pickles the data
 
-* __04_Full_Data_Clean_Preprocess.ipynb:__ reads all Tweets from Pickle, performs EDA, cleans them, and preprocceses them in preparation for topic modeling.
+* __04_Full_Data_Clean_Preprocess.ipynb:__ reads all Tweets from Pickle, performs EDA, cleans them, and preprocceses them in preparation for topic modeling
+
+
+* __05_Topic_Modeling.ipynb:__ reads preprocessed Tweets from Pickle, converts preprocessed Tweets to a matrix of token counts, and performs Latent Dirichlet Allocation to derive topics from and assign topics to the Tweets
