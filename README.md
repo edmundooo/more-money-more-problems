@@ -23,3 +23,5 @@ I authored the Python script and IPython Notebooks in this repo to collect all t
 * __05_Topic_Modeling.ipynb:__ reads preprocessed Tweets from Pickle, converts preprocessed Tweets to a matrix of token counts, and performs Latent Dirichlet Allocation to derive topics from and assign topics to the Tweets
 
 * __06_Congress_Metadata.ipynb:__ - downloads metadata for each Congress member, and resolves discrepancies between the Twitter usernames listed in the Congress metadata and Tweet data
+
+* __06_Campaign_Finance_Data.ipynb:__ downloads campaign finance information for each relevant member of Congress
