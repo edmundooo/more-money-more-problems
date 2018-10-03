@@ -20,10 +20,10 @@ I authored the Python script and IPython Notebooks in this repo to collect all t
 
 * __04_Full_Data_Clean_Preprocess.ipynb:__ reads all Tweets from Pickle, performs EDA, cleans them, and preprocceses them in preparation for topic modeling
 
-* __05_Topic_Modeling.ipynb:__ reads preprocessed Tweets from Pickle, converts preprocessed Tweets to a matrix of token counts, and performs Latent Dirichlet Allocation to derive topics from and assign topics to the Tweets
+* __05_Congress_Metadata.ipynb:__ - downloads metadata for each Congress member, and resolves discrepancies between the Twitter usernames listed in the Congress metadata and Tweet data
 
-* __06_Congress_Metadata.ipynb:__ - downloads metadata for each Congress member, and resolves discrepancies between the Twitter usernames listed in the Congress metadata and Tweet data
+* __06_Topic_Modeling.py:__ reads preprocessed Tweets from Pickle, converts preprocessed Tweets to a matrix of token counts, and performs Latent Dirichlet Allocation to derive topics from and assign topics to the Tweets
 
-* __06_Campaign_Finance_Data.ipynb:__ downloads campaign finance information for each relevant member of Congress
+* __07_Campaign_Finance_Data.ipynb:__ downloads campaign finance information for each relevant member of Congress
 
 * __08_Campaign_Finance_EDA_Aggregate_PAC.ipynb:__ performs EDA on aggreate camapaign contribution data for current Congress, and aggregates PAC contribution totals for each relevant member of Congress
