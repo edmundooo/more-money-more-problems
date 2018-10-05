@@ -1,7 +1,7 @@
 # More_Money_More_Problems (DRAFT)
 ---
 
-I authored the Python script and IPython Notebooks in this repo to collect all the Tweets by the [current members of the United States Congress](https://gwu-libraries.github.io/sfm-ui/posts/2017-05-23-congress-seed-list), clean the data, preprocess the text of all Tweets using Natural Languge Toolkit, and model their topics using [gensim's Latent Dirichlet allocation](https://radimrehurek.com/gensim/models/ldamodel.html). I then introduced [Campaign Finance information](https://www.opensecrets.org/api/admin/?function=user_api_use) for each member of Congress and investigated the relationship between the amount of PAC (Political Action Committee) money they receive to finance their campaigns affects what they Tweet about.
+The Python scripts and IPython Notebooks in this repo collect all the Tweets by the [current members of the United States Congress](https://gwu-libraries.github.io/sfm-ui/posts/2017-05-23-congress-seed-list), clean the data, preprocess the text of all Tweets using Natural Languge Toolkit, and model their topics using [gensim's Latent Dirichlet allocation](https://radimrehurek.com/gensim/models/ldamodel.html). I then introduced [Campaign Finance information](https://www.opensecrets.org/api/admin/?function=user_api_use) for each member of Congress and investigated the relationship between the amount of PAC (Political Action Committee) money they receive to finance their campaigns affects what they Tweet about.
 
 ---
 
@@ -9,7 +9,6 @@ I authored the Python script and IPython Notebooks in this repo to collect all t
 
 ---
 ### This repository includes:
-
 
 
 * __01_Get_Congress_Tweets.py:__ gets the Tweets of all the current members of the US Congress, and reads the Tweets and select Tweet metadata into CSV files
