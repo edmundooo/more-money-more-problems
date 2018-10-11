@@ -26,3 +26,5 @@ The Python scripts and IPython Notebooks in this repo collect all the Tweets by 
 * __07_Campaign_Finance_Data.ipynb:__ downloads campaign finance information for each relevant member of Congress
 
 * __08_Campaign_Finance_EDA_Aggregate_PAC.ipynb:__ performs EDA on aggreate camapaign contribution data for current Congress, and aggregates PAC contribution totals for each relevant member of Congress
+
+* __09_Topic_PAC_Analysis.ipynb:__ shows the amount of PAC money received by Congress Members by state, party, etc., abbreviates topics for analysis, shows the top Tweet topics by Congress Members who received the most and least money from PACs to finance their most recent campaigns, and explores the high level differences between in PAC contributions depending on what Congress Members Tweet about.
