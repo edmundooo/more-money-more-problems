@@ -25,7 +25,7 @@ The Python scripts and IPython notebooks in this repo collect, clean, preprocess
 
 * __06_topic_modeling.py:__ reads preprocessed Tweets from Pickle, converts preprocessed Tweets to a matrix of token counts, and performs Latent Dirichlet Allocation to derive topics from and assign topics to the Tweets
 
-* __07_Campaign_Finance_Data.ipynb:__ downloads campaign finance information for each relevant member of Congress
+* __07_campaign_finance_data.ipynb:__ downloads campaign finance information for each relevant member of Congress
 
 * __08_campaign_finance_eda_aggregate_pac.ipynb:__ performs EDA on aggreate camapaign finance data for current Congress, and aggregates PAC contribution totals for each relevant member of Congress
 
