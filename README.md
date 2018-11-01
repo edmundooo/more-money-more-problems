@@ -1,13 +1,17 @@
 # More Money, More Problems
 ---
 
-<img width="1007" alt="screen shot 2018-10-01 at 3 43 05 pm" src="https://user-images.githubusercontent.com/25728710/46312190-59f62200-c592-11e8-9aaf-c65d65c72646.png">
+![picture1](https://user-images.githubusercontent.com/25728710/47862500-a28c3f80-ddcb-11e8-86dc-392b5ee5a2a9.png)
 
 ---
 
 ### Summary:
 
 The Python scripts and IPython notebooks in this repo collect, clean, preprocess and perform topic modeling on all Tweets of the current members of the US Congress. They also introduce campaign finance information for each member of Congress and investigate the relationship between the amount of PAC (Political Action Committee) members receive to finance their campaigns and what they Tweet about. In addition, [this map](https://datawrapper.dwcdn.net/h4cuM/4/) shows the amount of money PACs contributed to the campaigns of incumbent members of the U.S. House of Representatives in 2018.
+
+---
+
+<img width="1007" alt="screen shot 2018-10-01 at 3 43 05 pm" src="https://user-images.githubusercontent.com/25728710/46312190-59f62200-c592-11e8-9aaf-c65d65c72646.png">
 
 ---
 
