@@ -7,7 +7,7 @@
 
 ### Summary:
 
-The Python scripts and IPython notebooks in this repo collect, clean, preprocess and perform topic modeling on all Tweets of the current members of the US Congress. They also introduce campaign finance information for each member of Congress and investigate the relationship between the amount of PAC (Political Action Committee) members receive to finance their campaigns and what they Tweet about.
+The Python scripts and IPython notebooks in this repo collect, clean, preprocess and perform topic modeling on all Tweets of the current members of the US Congress. They also introduce campaign finance information for each member of Congress and investigate the relationship between the amount of PAC (Political Action Committee) members receive to finance their campaigns and what they Tweet about. In addition, [this map](https://datawrapper.dwcdn.net/h4cuM/4/) shows the amount of money PACs contributed to the campaigns of incumbent members of the U.S. House of Representatives in 2018.
 
 ---
 
