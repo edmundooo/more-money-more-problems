@@ -1,7 +1,4 @@
-# More Money, More Problems
----
-
-![picture1](https://user-images.githubusercontent.com/25728710/47862500-a28c3f80-ddcb-11e8-86dc-392b5ee5a2a9.png)
+<img width="829" alt="screen shot 2018-11-01 at 11 49 15 am" src="https://user-images.githubusercontent.com/25728710/47862763-44ac2780-ddcc-11e8-8805-e6f514f08069.png">
 
 ---
 
