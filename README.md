@@ -32,8 +32,8 @@ The Python scripts and IPython notebooks in this repo collect, clean, preprocess
 
 9. __topic_pac_analysis.ipynb:__ shows the amount of PAC money received by Congress Members by state, party, etc., abbreviates topics for analysis, shows the top Tweet topics by Congress Members who received the most and least money from PACs to finance their most recent campaigns, and explores the high level differences between in PAC contributions depending on what Congress Members Tweet about
 
-* __Map.md:__ shows the amount of money PACs contributed to the campaigns of incumbent members of the U.S. House of Representatives in 2018
+10. __Map.md:__ shows the amount of money PACs contributed to the campaigns of incumbent members of the U.S. House of Representatives in 2018
 
-* __Presentation.pdf:__ presentation of process and results
+11. __Presentation.pdf:__ presentation of process and results
 
 ---
