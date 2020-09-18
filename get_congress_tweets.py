@@ -3,7 +3,7 @@ Subject: Topics of Tweets of US Congress through the Lens of Campaign Finance
 
 Date: 09/08/2018
 
-Name: Edmund D. Chitwood
+Author: Edmund D. Chitwood
 
 Summary:
 
